@@ -2,7 +2,9 @@ void MergeSort(int *array, int size)
 {
     int mid = size / 2;
     if (size % 2 == 1)
-    mid++;
+    {
+        mid++;
+    }
     int h = 1;
     int *c = (int*)malloc(size * sizeof(int));
     int step;
